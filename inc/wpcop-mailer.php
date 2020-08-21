@@ -1,6 +1,6 @@
 <?php
 
-require_once( ABSPATH . 'wp-includes/class-phpmailer.php' );
+require_once( ABSPATH . 'wp-includes/PHPMailer/PHPMailer.php' );
 
 class WPCopPHPMailer extends PHPMailer {
 
